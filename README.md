@@ -1,26 +1,3 @@
-# crack-elasticsearch-by-docker
-
-Crack elasticsearch 7.x / 8.x by docker
-
-适用于破解elasticsearch 7.x / 8.x 的自动脚本，可自动在容器内编译生成破解补丁。
-
-已测试可编译版本
-* elasticsearch 7.17.2
-
-已测试自动安装版本
-* elasticsearch 8.2.0
-* elasticsearch 8.8.1
-* elasticsearch 8.9.1
-* elasticsearch 8.10.1
-* elasticsearch 8.11.1
-* elasticsearch 8.12.1
-
-企业版证书导入验证
-
-* elasticsearch 8.12.2
-
-**无法验证导入企业版证书后的稳定性与可用性**
-
 
 ## Usage
 
