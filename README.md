@@ -18,7 +18,7 @@ version=8.2.0
 sudo bash cr_elastic.sh $version
 ```
 
-Get cracked x-pack-core-$version.jar
+Get x-pack-core-$version.jar
 
 编译产物和编译中间件保存在output文件夹中
 
