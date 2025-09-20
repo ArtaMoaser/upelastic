@@ -14,9 +14,8 @@ Run srcipt with version
 运行脚本并指定完整版本（例如: 8.2.0)
 
 ```shell
-cd crack-elasticsearch-by-docker
 version=8.2.0
-sudo bash crack.sh $version
+sudo bash cr_elastic.sh $version
 ```
 
 Get cracked x-pack-core-$version.jar
@@ -31,22 +30,12 @@ cp output/x-pack-core-$version.crack.jar /usr/share/elasticsearch/modules/x-pack
 -v output/x-pack-core-$version.crack.jar:/usr/share/elasticsearch/modules/x-pack-core/x-pack-core-$version.jar
 ```
 
-## Crack and install
+## upgrade and install
 
-You can directly complete the specified version of cracking and Docker installation (single node) through scripts
+You can directly complete the specified version of upgrade and Docker installation (single node) through scripts
 可以直接通过脚本完成指定版本的破解和Docker安装（单节点）
 
-Users can adjust parameters according to their own needs, and this script is only for reference.
-使用者可根据自身需求调整参数，该脚本仅作为参考。
-
-```
-git clone https://github.com/wolfbolin/crack-elasticsearch-by-docker.git
-cd crack-elasticsearch-by-docker
-version=8.2.0
-sudo bash crack_and_install.sh $version
-```
-
-## Platinum License
+## up lice
 
 First of all, you need to register for a free basic certificate on the official website and download it.
 
@@ -69,7 +58,7 @@ Save the file, then upload the modified file via Kibana and complete the activat
 保存，然后通过Kibana上传修改后的文件，通过License证书导入完成激活。
 
 ## Others
-You can change `crack.sh` shell with http_proxy / https_proxy url
+You can change `cr_elastic.sh` shell with http_proxy / https_proxy url
 
 你可以修改`crack.sh`以使用代理访问网络，避免网络访问故障
 
